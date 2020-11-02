@@ -1,0 +1,2 @@
+export const CHANGE_DETAIL = "detail/CHANGE_DETAIL"
+export const CHANGE_DETAIL_EDIT_STATUS = "detail/CHANGE_DETAIL_EDIT_STATUS";

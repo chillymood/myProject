@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*頭部區*/
+.head {
+  width: 100%;
+  height: 80px;
+  background: #07cbc9;
+  position: fixed;
+  z-index: 100;
+  left: 0;
+  top: 0;
+}
+
+.logo img {
+  float: left;
+  margin: 16px 100px; 
+}
+.nav {
+  float: right;
+  margin-right: 100px;
+}
+.nav li {
+  float: left;
+}
+.nav li a {
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 80px;
+  font-weight: bold;
+  display: block;
+  padding: 0 7px;
+}
+.nav li a:hover {
+  color: #000;
+  background: #fff;
+}
+/*banner區*/
+.banner {
+  width: 100%;
+  position: relative;
+  margin-top: 80px;
+}
+.banner img {
+  width: 100%;
+  height: 800px;
+}
+.topLayer {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 800px;
+  opacity: 0.5;
+  background: #000;
+}
+.banner FORM {
+  position: absolute;
+  width: 510px;
+  top: 50%;
+  left: 50%;
+  margin-top: -174px;
+  margin-left: -255px;
+  font-size: 20px;
+  text-align: center;
+}
+.banner .text {
+  width: 505px;
+  height: 39px;
+  border: 2px #c0c0c0 solid;
+  margin-bottom: 20px;
+  background: transparent;
+  color: #c0c0c0;
+}
+.banner textarea {
+  width: 505px;
+  height: 115px;
+  border: 2px #c0c0c0 solid;
+  margin-bottom: 20px;
+  background: transparent;
+  color: #c0c0c0;
+}
+.banner .btn {
+  width: 127px;
+  height: 39px;
+  border: 2px #c0c0c0 solid;
+  background: transparent;
+  color: #c0c0c0;
+}
+.about H1 {
+  text-align: center;
+}
+.banner .text:hover,
+.banner textarea:hover {
+  border: 2px #07cbc9 solid;
+}
+.banner .btn:hover {
+  border: 0px;
+  background: #07cbc9;
+}
+/*about區*/
+/*top*/
+.top {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.top h1 {
+  margin-bottom: 20px;
+}
+.line {
+  border: 0.5px solid #07cbc9;
+  width: 40px;
+  height: 0;
+  margin: 0 auto;
+}
+.top div {
+  margin-top: 20px;
+  color: gray;
+  line-height: 25px;
+}
+/*middle*/
+/*右塊*/
+.middle .left {
+  font-size: 20px;
+  float: left;
+  z-index: 2;
+  margin-right: 20px;
+}
+.mid {
+  float: left;
+}
+
+h2.space {
+  margin-left: 10px;
+}
+div.word {
+  background: rgba(255, 255, 255, 0.5);
+  padding: 25px;
+  position: absolute;
+  top: 100px;
+  left: 250px;
+  width: 320px;
+  height: 216px;
+  border: 1px gray solid;
+  line-height: 30px;
+  z-index: 20;
+}
+.middle {
+  width: 1300px;
+  margin: 0 auto;
+  height: 380px;
+  padding-left: 260px;
+  position: relative;
+}
+.middle img {
+  width: 568px;
+  height: 380px;
+  display: block;
+  float: left;
+  margin: 0 30px;
+}
+.middle input {
+  width: 100px;
+  height: 43px;
+  border: 1px black solid;
+  color: white;
+  background: black;
+  font-size: 16px;
+  margin-top: 20px;
+}
+.middle input:hover {
+  background: transparent;
+  color: black;
+}
+.word1,
+.word2 {
+  width: 238px;
+  height: 130px;
+  border: 1px solid #07cbc9;
+  float: left;
+  text-align: center;
+  vertical-align: center;
+  padding-top: 14px;
+}
+.word2 {
+  margin-top: 30px;
+}
+/*左塊*/
+.middle .wordBox {
+  width: 250px;
+  overflow: hidden;
+  float: left;
+}
+
+.middle .word-top {
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 70px;
+}
+.middle .word-bottom {
+  font-size: 18px;
+  line-height: 70px;
+}
+/*圖片交錯區*/
+.arrow {
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 20px 20px 20px;
+  border-color: transparent #07cbc9 transparent transparent;
+  position: absolute;
+  left: -40px;
+  top: 220px;
+  z-index: 10;
+}
+
+.pic {
+  width: 100%;
+  margin-top: 50px;
+  overflow: hidden;
+}
+.greenSqu {
+  width: 25%;
+  height: 476.5px;
+  float: left;
+  background: #07cbc9;
+  position: relative;
+}
+.greenSqu img {
+  width: 100%;
+  height: 100%;
+}
+.s2,
+.s4,
+.s5,
+.s7 {
+  color: #fff;
+}
+.pic h1 {
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.p1 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 30px;
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.p2 {
+  line-height: 25px;
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.pic input {
+  width: 100px;
+  height: 43px;
+  border: 1px black solid;
+  color: white;
+  background: black;
+  font-size: 16px;
+  display: block;
+  margin: 40px auto;
+}
+.pic input:hover {
+  background: transparent;
+  color: black;
+}
+/*gallery區*/
+.title {
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.title h1 {
+  margin-bottom: 20px;
+}
+.title div {
+  margin-top: 20px;
+  color: gray;
+  line-height: 25px;
+}
+
+.img6 {
+  width: 1200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.a {
+  width: 360px;
+  height: 306px;
+  float: left;
+  margin: 20px;
+}
+.img6 img {
+  width: 100%;
+  height: 240px;
+  display: block;
+}
+.b {
+  height: 64px;
+  background: black;
+  color: #fff;
+  line-height: 64px;
+  padding-left: 10px;
+}
+
+.foot {
+  width: 100%;
+  height: 80px;
+  background: #07cbc9;
+  text-align: center;
+  line-height: 80px;
+  color: #fff;
+}
