@@ -1,0 +1,418 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+h6 {
+  font-size: 14px;
+}
+body{
+  width: 100%;
+}
+a {
+  text-decoration: none;
+}
+
+/* 頭部 */
+.header {
+  width: 100%;
+  color: #ffffff;
+  background: rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  z-index: 1;
+  position:fixed;
+}
+.header__logo {
+  width: 200px;
+  height: 60px;
+  float: left;
+}
+
+.header__logo:hover {
+  cursor: pointer;
+  color: red;
+}
+
+.header__logo-img {
+  float: left; 
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.header__logo-word {
+  float: left;
+  line-height: 60px;
+  margin-left: 10px;
+}
+
+.header__nav {
+  float: right; 
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+.header__nav-item {
+  height: 30px;
+  float: left;
+  line-height: 30px;
+  padding-right: 40px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header__nav-item-button {
+  background: red;
+  border-radius: 3px;
+  padding: 0 10px;
+}
+.header__nav-tip {
+  position: absolute;
+  background: red;
+  width: 56px;
+  height: 2px;
+  left: 0;
+  bottom: 0;
+  margin-bottom: -10px;
+  transition: all 0.5s;
+}
+
+/* 屏1 */
+.screen-1 {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction: column;
+  width: 100%;
+  height: 640px;
+  color: white;
+  background: url(../img/sc1.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+
+/* 屏2 */
+.screen-2 {
+  width: 100%;
+  height: 640px;
+  background: white;
+  color: black;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.screen-2__heading {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -96px;
+}
+.screen-2__tip {
+  width: 40px;
+  height: 3px;
+  background: red;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  margin-left: -20px;
+}
+.screen-2__subheading-1 {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  margin-left: -110px;
+}
+.screen-2__subheading-2 {
+  position: absolute;
+  top: 145px;
+  left: 50%;
+  margin-left: -226px;
+  overflow: hidden;
+}
+.screen-2__img-BAT {
+  width: 750px;
+  height: 361px;
+  background: url(../img/sc2.png);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -375px;
+}
+.screen-2__img-teacher {
+  width: 275px;
+  height: 380px;
+  background: url(../img/sc2-1.png);
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  margin-left: -138px;
+  z-index: 2;
+}
+.screen-2__img-rocket {
+  width: 266px;
+  height: 205px;
+  background: url(../img/sc2-2.png);
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* 屏3 */
+.screen-3 {
+  width: 100%;
+  height: 640px;
+  background: rgb(43, 51, 59);
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+.screen-3__heading {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+}
+.screen-3__tip {
+  width: 40px;
+  height: 3px;
+  background: red;
+  position: absolute;
+  top: 41%;
+  left: 50%;
+}
+.screen-3__subheading {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+}
+.screen-3__img-flower {
+  width: 640px;
+  height: 640px;
+  background: url(../img/sc3.png) no-repeat;
+  background-size: contain;
+  position: absolute;
+  bottom: 0;
+  left: 150px;
+}
+.screen-3__language {
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  margin-left: -10px;
+  bottom: 100px;
+  padding: 10px;
+}
+.screen-3__language-item {
+  float: left;
+  width: 75px;
+  height: 75px;
+  line-height: 75px;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 50%;
+  margin: 0 15px;
+}
+.screen-3__language-item:nth-child(1) {
+  color: rgba(120, 114, 180, 1);
+  border-color: rgba(120, 114, 180, 0.3);
+}
+.screen-3__language-item:nth-child(2) {
+  color: rgba(120, 114, 180, 1);
+  border-color: rgba(120, 114, 180, 0.3);
+}
+.screen-3__language-item:nth-child(3) {
+  color: rgba(34, 148, 255, 1);
+  border-color: rgba(78, 121, 161, 0.3);
+}
+.screen-3__language-item:nth-child(4) {
+  color: rgba(34, 148, 255, 1);
+  border-color: rgba(78, 121, 161, 0.3);
+  
+}
+.screen-3__language-item:nth-child(5) {
+  color: rgba(118, 189, 86, 1);
+  border-color: rgba(118, 189, 86, 0.3);
+}
+.screen-3__language-item:nth-child(6) {
+  color: rgba(118, 189, 86, 1);
+  border-color: rgba(118, 189, 86, 0.3);
+}
+.screen-3__language-item:nth-child(7) {
+  color: rgba(255, 81, 70, 1);
+  border-color: rgba(255, 81, 70, 0.3);
+}
+.screen-3__language-item:nth-child(8) {
+  color: rgba(34, 199, 218, 1);
+  border-color: rgba(34, 199, 218, 0.3);
+}
+
+/* 屏4 */
+.screen-4 {
+  width: 100%;
+  height: 640px;
+  background: #fff;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+}
+.screen-4__heading {
+  position: absolute;
+  top: 50px;
+  left: 50%;
+  margin-left: -96px;
+}
+.screen-4__tip {
+  width: 40px;
+  height: 3px;
+  background: red;
+  position: absolute;
+  top: 120px;
+  left: 50%;
+  margin-left: -20px;
+}
+.screen-4__subheading {
+  position: absolute;
+  top: 130px;
+  left: 50%;
+  margin-left: -63px;
+}
+
+.screen-4__img {
+  width: 1200px;
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  margin-left: -600px;
+}
+.screen-4__img-item {
+  width:200px;
+  text-align: center;
+  float: left;
+  margin: 0 50px;
+}
+
+.screen-4__img-item img {
+  margin-bottom: 20px;
+}
+
+/* 屏5 */
+
+.screen-5 {
+  width: 100%;
+  height: 640px;
+  background: url(../img/sc5.jpg);
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+.screen-5__heading {
+  position: absolute;
+  left: 50%;
+  bottom: 40%;
+  margin-left: -256px;
+}
+.screen-5__tip {
+  width: 40px;
+  height: 3px;
+  background: white;
+  position: absolute;
+  bottom: 36%;
+  left: 50%;
+  margin-left: -20px;
+}
+.screen-5__subheading {
+  position: absolute;
+  bottom: 30%;
+  left: 50%;
+  margin-left: -245px;
+}
+.screen-5__img {
+  width: 200px;
+  height: 200px;
+  background: url(../img/sc5-1.png);
+  position: absolute;
+  top: 100px;
+  left: 50%;
+  margin-left: -100px;
+}
+
+/* 按鈕頁 */
+.continue {
+  width: 100%;
+  height: 200px;
+  background: white;
+  color: #000;
+  text-align: center;
+  position: relative;
+}
+.continue__btn {
+  width: 200px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 3px;
+  line-height: 50px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -101px;
+  margin-top: -26px;
+  cursor: pointer;
+}
+.continue__btn:hover {
+  color: red;
+}
+
+/* 頁腳 */
+.footer {
+  height: 130px;
+  background: #000000;
+  color: white;
+  position: relative;
+}
+.footer__nav {
+  color: white;
+  overflow: hidden;
+  position: absolute;
+  top: 40px;
+  left: 50%;
+  margin-left: -416px;
+}
+.footer__nav-item {
+  float: left;
+  margin-left: 40px;
+  cursor: pointer;
+}
+.footer__nav-item:hover {
+  color: red;
+}
+
+.footer__copyright {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  margin-left: -230px;
+}
+
+/* 右下綱要 */
+.outline {
+  background: rgba(255, 255, 255, 1);
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  padding: 20px 0;
+  display: none;
+
+}
+.outline_show{
+  display:block;
+}
+.outline-item {
+  width: 50px;
+  height: 30px;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+  cursor: pointer;
+}
+.outline-item:hover {
+  color: red;
+}

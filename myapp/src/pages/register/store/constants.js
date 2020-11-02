@@ -1,0 +1,1 @@
+export const REGISTER_SUCCESS = "register/REGISTER_SUCCESS"
